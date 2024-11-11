@@ -1,0 +1,4353 @@
+{
+  "version": "17.1.9",
+  "name": "",
+  "docProps": {
+    "docPropsCore": {
+      "creator": "ws",
+      "lastModifiedBy": "松 吴",
+      "created": "2015-06-05T18:19:34Z",
+      "modified": "2024-11-08T10:20:04Z"
+    },
+    "docPropsApp": {
+      "Application": "Microsoft Excel",
+      "DocSecurity": "0",
+      "ScaleCrop": "false",
+      "HeadingPairs": {
+        "size": 2,
+        "baseType": "variant",
+        "workbookInfoArray": [
+          {
+            "elementType": "vt:lpstr",
+            "value": "工作表"
+          },
+          {
+            "elementType": "vt:i4",
+            "value": "2"
+          }
+        ]
+      },
+      "TitlesOfParts": {
+        "size": 2,
+        "baseType": "lpstr",
+        "sheetsNameArray": [
+          "Sheet1",
+          "Sheet2"
+        ]
+      },
+      "Company": "",
+      "LinksUpToDate": "false",
+      "SharedDoc": "false",
+      "HyperlinksChanged": "false",
+      "AppVersion": "16.0300"
+    }
+  },
+  "sheetCount": 3,
+  "tabStripRatio": 0.6,
+  "iterativeCalculation": false,
+  "iterativeCalculationMaximumIterations": 100,
+  "iterativeCalculationMaximumChange": 0.001,
+  "dynamicReferences": false,
+  "customList": [],
+  "defaultSheetTabStyles": {},
+  "builtInFileIcons": {},
+  "activeSheetIndex": 1,
+  "sheets": {
+    "Evaluation Version": {
+      "name": "Evaluation Version",
+      "isSelected": false,
+      "rowCount": 20,
+      "visible": 1,
+      "theme": {
+        "name": "Office Theme",
+        "themeColor": {
+          "name": "Office",
+          "background1": {
+            "a": 255,
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "background2": {
+            "a": 255,
+            "r": 231,
+            "g": 230,
+            "b": 230
+          },
+          "text1": {
+            "a": 255,
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "text2": {
+            "a": 255,
+            "r": 68,
+            "g": 84,
+            "b": 106
+          },
+          "accent1": {
+            "a": 255,
+            "r": 91,
+            "g": 155,
+            "b": 213
+          },
+          "accent2": {
+            "a": 255,
+            "r": 237,
+            "g": 125,
+            "b": 49
+          },
+          "accent3": {
+            "a": 255,
+            "r": 165,
+            "g": 165,
+            "b": 165
+          },
+          "accent4": {
+            "a": 255,
+            "r": 255,
+            "g": 192,
+            "b": 0
+          },
+          "accent5": {
+            "a": 255,
+            "r": 68,
+            "g": 114,
+            "b": 196
+          },
+          "accent6": {
+            "a": 255,
+            "r": 112,
+            "g": 173,
+            "b": 71
+          },
+          "hyperlink": {
+            "a": 255,
+            "r": 5,
+            "g": 99,
+            "b": 193
+          },
+          "followedHyperlink": {
+            "a": 255,
+            "r": 149,
+            "g": 79,
+            "b": 114
+          }
+        },
+        "headingFont": "'Calibri Light'",
+        "bodyFont": "Calibri",
+        "font": {
+          "headerFont": "'Calibri Light'",
+          "bodyFont": "Calibri"
+        }
+      },
+      "data": {
+        "dataTable": {
+          "1": {
+            "1": {
+              "value": "本版本为西安葡萄城 SpreadJS 表格控件产品试用版，未取得再分发授权。"
+            }
+          },
+          "2": {
+            "1": {
+              "value": "如需获得正式授权，请致电 400-657-6008。"
+            }
+          }
+        },
+        "defaultDataNode": {
+          "style": {
+            "backColor": null,
+            "foreColor": "Text 1 0",
+            "vAlign": 2,
+            "font": "normal normal 14.6667px Calibri",
+            "themeFont": "Body",
+            "formatter": "General",
+            "borderLeft": null,
+            "borderTop": null,
+            "borderRight": null,
+            "borderBottom": null,
+            "locked": true,
+            "textIndent": 0,
+            "wordWrap": false,
+            "shrinkToFit": false,
+            "textDecoration": 0,
+            "isVerticalText": false,
+            "textOrientation": 0,
+            "fontStyle": null,
+            "fontWeight": null,
+            "fontSize": "14.6667px",
+            "fontFamily": "Calibri"
+          }
+        }
+      },
+      "rowHeaderData": {},
+      "colHeaderData": {},
+      "rows": [
+        null,
+        {
+          "size": 30
+        },
+        {
+          "size": 30
+        }
+      ],
+      "defaultData": {},
+      "leftCellIndex": 0,
+      "topCellIndex": 0,
+      "selections": {
+        "0": {
+          "row": 0,
+          "col": 0,
+          "rowCount": 1,
+          "colCount": 1
+        },
+        "length": 1
+      },
+      "defaults": {
+        "colHeaderRowHeight": 20,
+        "colWidth": 53,
+        "rowHeaderColWidth": 40,
+        "rowHeight": 30,
+        "_isExcelDefaultColumnWidth": false
+      },
+      "rowOutlines": {
+        "items": []
+      },
+      "columnOutlines": {
+        "items": []
+      },
+      "cellStates": {},
+      "states": {},
+      "outlineColumnOptions": {},
+      "autoMergeRangeInfos": [],
+      "shapeCollectionOption": {
+        "snapMode": 0
+      },
+      "printInfo": {
+        "showColumnHeader": 1,
+        "showRowHeader": 1,
+        "paperSize": {
+          "width": 850,
+          "height": 1100,
+          "kind": 1
+        }
+      },
+      "index": 0,
+      "order": 0
+    },
+    "Sheet1": {
+      "name": "Sheet1",
+      "isSelected": true,
+      "rowCount": 33,
+      "columnCount": 6,
+      "activeRow": 7,
+      "activeCol": 1,
+      "zoomFactor": 0.85,
+      "visible": 1,
+      "theme": {
+        "name": "Office Theme",
+        "themeColor": {
+          "name": "Office",
+          "background1": {
+            "a": 255,
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "background2": {
+            "a": 255,
+            "r": 231,
+            "g": 230,
+            "b": 230
+          },
+          "text1": {
+            "a": 255,
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "text2": {
+            "a": 255,
+            "r": 68,
+            "g": 84,
+            "b": 106
+          },
+          "accent1": {
+            "a": 255,
+            "r": 91,
+            "g": 155,
+            "b": 213
+          },
+          "accent2": {
+            "a": 255,
+            "r": 237,
+            "g": 125,
+            "b": 49
+          },
+          "accent3": {
+            "a": 255,
+            "r": 165,
+            "g": 165,
+            "b": 165
+          },
+          "accent4": {
+            "a": 255,
+            "r": 255,
+            "g": 192,
+            "b": 0
+          },
+          "accent5": {
+            "a": 255,
+            "r": 68,
+            "g": 114,
+            "b": 196
+          },
+          "accent6": {
+            "a": 255,
+            "r": 112,
+            "g": 173,
+            "b": 71
+          },
+          "hyperlink": {
+            "a": 255,
+            "r": 5,
+            "g": 99,
+            "b": 193
+          },
+          "followedHyperlink": {
+            "a": 255,
+            "r": 149,
+            "g": 79,
+            "b": 114
+          }
+        },
+        "headingFont": "'Calibri Light'",
+        "bodyFont": "Calibri",
+        "font": {
+          "headerFont": "'Calibri Light'",
+          "bodyFont": "Calibri"
+        }
+      },
+      "data": {
+        "dataTable": {
+          "0": {
+            "0": {
+              "value": {
+                "value": "检 测 项 目",
+                "richText": [
+                  {
+                    "text": "检"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": " "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "测"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": " "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "项"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": " "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "目"
+                  }
+                ],
+                "text": "检 测 项 目"
+              },
+              "style": "__builtInStyle12"
+            },
+            "1": {
+              "style": "__builtInStyle13"
+            },
+            "2": {
+              "value": {
+                "value": "技术参数/标准",
+                "richText": [
+                  {
+                    "text": "技术参数"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": "/"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "标准"
+                  }
+                ],
+                "text": "技术参数/标准"
+              },
+              "style": "__builtInStyle1"
+            },
+            "3": {
+              "value": {
+                "value": "检测设备/方法",
+                "richText": [
+                  {
+                    "text": "检测设备"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": "/"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "方法"
+                  }
+                ],
+                "text": "检测设备/方法"
+              },
+              "style": "__builtInStyle1"
+            },
+            "4": {
+              "value": {
+                "value": "判 定",
+                "richText": [
+                  {
+                    "text": "判"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": " "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "定"
+                  }
+                ],
+                "text": "判 定"
+              },
+              "style": "__builtInStyle2"
+            },
+            "5": {
+              "value": {
+                "value": "备 注",
+                "richText": [
+                  {
+                    "text": "备"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": " "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "注"
+                  }
+                ],
+                "text": "备 注"
+              },
+              "style": "__builtInStyle2"
+            }
+          },
+          "1": {
+            "0": {
+              "value": "外观检查",
+              "style": "__builtInStyle14"
+            },
+            "1": {
+              "value": {
+                "value": "标  识",
+                "richText": [
+                  {
+                    "text": "标"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": "  "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "识"
+                  }
+                ],
+                "text": "标  识"
+              },
+              "style": "__builtInStyle3"
+            },
+            "2": {
+              "value": "清晰、美观、正确、简明",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "目测",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "2": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "value": {
+                "value": "框  架",
+                "richText": [
+                  {
+                    "text": "框"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": "  "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "架"
+                  }
+                ],
+                "text": "框  架"
+              },
+              "style": "__builtInStyle3"
+            },
+            "2": {
+              "value": "美观、牢固、无破损",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "目测",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "3": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "value": {
+                "value": "连  线",
+                "richText": [
+                  {
+                    "text": "连"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": "  "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "线"
+                  }
+                ],
+                "text": "连  线"
+              },
+              "style": "__builtInStyle3"
+            },
+            "2": {
+              "value": "美观、导通良好、无缺损",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "表测、目测",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "4": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "value": {
+                "value": "测 试 针",
+                "richText": [
+                  {
+                    "text": "测"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": " "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "试"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": " "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "针"
+                  }
+                ],
+                "text": "测 试 针"
+              },
+              "style": "__builtInStyle14"
+            },
+            "2": {
+              "value": "弹性好、无卡死",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "目测",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "5": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "style": "__builtInStyle15"
+            },
+            "2": {
+              "value": "位置选择正确、无偏移",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "目测",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "6": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "style": "__builtInStyle16"
+            },
+            "2": {
+              "value": "针头选择正确、接触性好",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "表测、目测",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "7": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "value": {
+                "value": "定 位 销",
+                "richText": [
+                  {
+                    "text": "定"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": " "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "位"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": " "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "销"
+                  }
+                ],
+                "text": "定 位 销"
+              },
+              "style": "__builtInStyle14"
+            },
+            "2": {
+              "value": "高度是否齐平",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "目测",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "8": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "style": "__builtInStyle15"
+            },
+            "2": {
+              "value": "定位正确、无偏移",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "目测、实际操作",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "9": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "style": "__builtInStyle15"
+            },
+            "2": {
+              "value": "松紧度好、无卡死",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "目测、实际操作",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "10": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "style": "__builtInStyle16"
+            },
+            "2": {
+              "value": "弹性好、无卡死",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "目测、实际操作",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "11": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "value": {
+                "value": "压 棒",
+                "richText": [
+                  {
+                    "text": "压"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": " "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "棒"
+                  }
+                ],
+                "text": "压 棒"
+              },
+              "style": "__builtInStyle17"
+            },
+            "2": {
+              "value": "高度是否齐平",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "目测",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "12": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "style": "__builtInStyle18"
+            },
+            "2": {
+              "value": "位置正确、无偏移",
+              "style": "__builtInStyle5"
+            },
+            "3": {
+              "value": "目测、实际操作",
+              "style": "__builtInStyle14"
+            },
+            "4": {
+              "style": "__builtInStyle23"
+            },
+            "5": {
+              "style": "__builtInStyle23"
+            }
+          },
+          "13": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "style": "__builtInStyle18"
+            },
+            "2": {
+              "value": "（是否压或碰到器件）",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "style": "__builtInStyle16"
+            },
+            "4": {
+              "style": "__builtInStyle24"
+            },
+            "5": {
+              "style": "__builtInStyle24"
+            }
+          },
+          "14": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "style": "__builtInStyle18"
+            },
+            "2": {
+              "value": "压力是否均匀",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "目测、实际操作",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "15": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "style": "__builtInStyle19"
+            },
+            "2": {
+              "value": "固定是否牢固",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "目测",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "16": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "value": {
+                "value": "64芯牛角",
+                "richText": [
+                  {
+                    "text": "64"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "芯牛角"
+                  }
+                ],
+                "text": "64芯牛角"
+              },
+              "style": "__builtInStyle25"
+            },
+            "2": {
+              "value": "牢固、无破损",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "实际操作",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "17": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "style": "__builtInStyle26"
+            },
+            "2": {
+              "value": "插针是否齐平或少针",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "目测",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "18": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "value": {
+                "value": "夹   手",
+                "richText": [
+                  {
+                    "text": "夹"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": "   "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "手"
+                  }
+                ],
+                "text": "夹   手"
+              },
+              "style": "__builtInStyle3"
+            },
+            "2": {
+              "value": "滑动部分无卡死",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "实际操作",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "19": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "value": {
+                "value": "弹   簧",
+                "richText": [
+                  {
+                    "text": "弹"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": "   "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "簧"
+                  }
+                ],
+                "text": "弹   簧"
+              },
+              "style": "__builtInStyle3"
+            },
+            "2": {
+              "value": "滑动部分无卡死",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "实际操作",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "20": {
+            "0": {
+              "style": "__builtInStyle16"
+            },
+            "1": {
+              "value": {
+                "value": "轴   承",
+                "richText": [
+                  {
+                    "text": "轴"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": "   "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "承"
+                  }
+                ],
+                "text": "轴   承"
+              },
+              "style": "__builtInStyle3"
+            },
+            "2": {
+              "value": "滑动部分无卡死",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "实际操作",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "21": {
+            "0": {
+              "value": "功能检查",
+              "style": "__builtInStyle14"
+            },
+            "1": {
+              "value": "三芯电源线",
+              "style": "__builtInStyle3"
+            },
+            "2": {
+              "value": "外观无破损、接地良好、",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "万用表检测",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "22": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "value": "指针显示表",
+              "style": "__builtInStyle3"
+            },
+            "2": {
+              "value": "量程是否在允许误差范围内",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "万用表检测",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "23": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "value": "数字显示表",
+              "style": "__builtInStyle3"
+            },
+            "2": {
+              "value": "量程是否在允许误差范围内",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "万用表检测",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "24": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "value": "拨动开关",
+              "style": "__builtInStyle3"
+            },
+            "2": {
+              "value": "接触是否良好、拨动是否灵活",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "万用表检测",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "25": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "value": "拨段开关",
+              "style": "__builtInStyle3"
+            },
+            "2": {
+              "value": "接触是否良好、拨动是否灵活",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "万用表检测",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "26": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "value": "电位器",
+              "style": "__builtInStyle14"
+            },
+            "2": {
+              "value": "接触是否良好、拨动是否灵活",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "万用表检测",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "27": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "style": "__builtInStyle16"
+            },
+            "2": {
+              "value": "阻值是否在允许误差范围内",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "万用表检测",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "28": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "value": "指示灯",
+              "style": "__builtInStyle3"
+            },
+            "2": {
+              "value": "能正常亮、无感应电",
+              "style": "__builtInStyle3"
+            },
+            "3": {
+              "value": "通电检查",
+              "style": "__builtInStyle3"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            },
+            "5": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "29": {
+            "0": {
+              "style": "__builtInStyle15"
+            },
+            "1": {
+              "value": {
+                "value": "PCB功能可靠性验证",
+                "richText": [
+                  {
+                    "text": "PCB"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "功能可靠性验证"
+                  }
+                ],
+                "text": "PCB功能可靠性验证"
+              },
+              "style": "__builtInStyle25"
+            },
+            "2": {
+              "value": "按照检测工艺，连续测试",
+              "style": "__builtInStyle5"
+            },
+            "3": {
+              "value": "实际操作",
+              "style": "__builtInStyle14"
+            },
+            "4": {
+              "style": "__builtInStyle23"
+            },
+            "5": {
+              "style": "__builtInStyle23"
+            }
+          },
+          "30": {
+            "0": {
+              "style": "__builtInStyle16"
+            },
+            "1": {
+              "style": "__builtInStyle26"
+            },
+            "2": {
+              "value": {
+                "value": "20次以上，无故障异常",
+                "richText": [
+                  {
+                    "text": "20"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "次以上，无故障异常"
+                  }
+                ],
+                "text": "20次以上，无故障异常"
+              },
+              "style": "__builtInStyle4"
+            },
+            "3": {
+              "style": "__builtInStyle16"
+            },
+            "4": {
+              "style": "__builtInStyle24"
+            },
+            "5": {
+              "style": "__builtInStyle24"
+            }
+          },
+          "31": {
+            "0": {
+              "value": {
+                "value": "结论：口该自制工装符合要求     口该自制工装不符合要求（口报废   口闲置   口改装）",
+                "richText": [
+                  {
+                    "text": "结论：口该自制工装符合要求"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": "     "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "口该自制工装不符合要求（口报废"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": "   "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "口闲置"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": "   "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "口改装）"
+                  }
+                ],
+                "text": "结论：口该自制工装符合要求     口该自制工装不符合要求（口报废   口闲置   口改装）"
+              },
+              "style": "__builtInStyle20"
+            },
+            "1": {
+              "style": "__builtInStyle21"
+            },
+            "2": {
+              "style": "__builtInStyle21"
+            },
+            "3": {
+              "style": "__builtInStyle21"
+            },
+            "4": {
+              "style": "__builtInStyle21"
+            },
+            "5": {
+              "style": "__builtInStyle22"
+            }
+          },
+          "32": {
+            "0": {
+              "value": {
+                "value": "备注：在判定合格的打“√”；在判定不合格的打“×”；“ / ”表示无此项目",
+                "richText": [
+                  {
+                    "text": "备注：在判定合格的打“√”；在判定不合格的打“×”；“"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": " / "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "”表示无此项目"
+                  }
+                ],
+                "text": "备注：在判定合格的打“√”；在判定不合格的打“×”；“ / ”表示无此项目"
+              },
+              "style": "__builtInStyle20"
+            },
+            "1": {
+              "style": "__builtInStyle21"
+            },
+            "2": {
+              "style": "__builtInStyle21"
+            },
+            "3": {
+              "style": "__builtInStyle21"
+            },
+            "4": {
+              "style": "__builtInStyle21"
+            },
+            "5": {
+              "style": "__builtInStyle22"
+            }
+          }
+        },
+        "defaultDataNode": {
+          "style": {
+            "backColor": null,
+            "foreColor": "Text 1 0",
+            "vAlign": 2,
+            "font": "normal normal 14.6667px Calibri",
+            "themeFont": "Body",
+            "formatter": "General",
+            "borderLeft": null,
+            "borderTop": null,
+            "borderRight": null,
+            "borderBottom": null,
+            "locked": true,
+            "textIndent": 0,
+            "wordWrap": false,
+            "shrinkToFit": false,
+            "textDecoration": 0,
+            "isVerticalText": false,
+            "textOrientation": 0,
+            "fontStyle": null,
+            "fontWeight": null,
+            "fontSize": "14.6667px",
+            "fontFamily": "Calibri"
+          }
+        }
+      },
+      "rowHeaderData": {
+        "defaultDataNode": {
+          "style": {
+            "themeFont": "Body"
+          }
+        }
+      },
+      "colHeaderData": {
+        "defaultDataNode": {
+          "style": {
+            "themeFont": "Body"
+          }
+        }
+      },
+      "rows": [
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        null,
+        {
+          "size": 20
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        null,
+        {
+          "size": 22
+        },
+        {
+          "size": 42
+        },
+        {
+          "size": 40
+        }
+      ],
+      "columns": [
+        {
+          "size": 96.47058823529412
+        },
+        {
+          "size": 350.5882352941177
+        },
+        {
+          "size": 218
+        },
+        {
+          "size": 282.3529411764706
+        },
+        {
+          "size": 275.29411764705884
+        },
+        {
+          "size": 89.41176470588236
+        }
+      ],
+      "defaultData": {},
+      "leftCellIndex": 0,
+      "topCellIndex": 0,
+      "spans": [
+        {
+          "row": 31,
+          "col": 0,
+          "rowCount": 1,
+          "colCount": 6
+        },
+        {
+          "row": 32,
+          "col": 0,
+          "rowCount": 1,
+          "colCount": 6
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "rowCount": 20,
+          "colCount": 1
+        },
+        {
+          "row": 21,
+          "col": 0,
+          "rowCount": 10,
+          "colCount": 1
+        },
+        {
+          "row": 12,
+          "col": 5,
+          "rowCount": 2,
+          "colCount": 1
+        },
+        {
+          "row": 16,
+          "col": 1,
+          "rowCount": 2,
+          "colCount": 1
+        },
+        {
+          "row": 26,
+          "col": 1,
+          "rowCount": 2,
+          "colCount": 1
+        },
+        {
+          "row": 29,
+          "col": 1,
+          "rowCount": 2,
+          "colCount": 1
+        },
+        {
+          "row": 29,
+          "col": 3,
+          "rowCount": 2,
+          "colCount": 1
+        },
+        {
+          "row": 29,
+          "col": 4,
+          "rowCount": 2,
+          "colCount": 1
+        },
+        {
+          "row": 29,
+          "col": 5,
+          "rowCount": 2,
+          "colCount": 1
+        },
+        {
+          "row": 12,
+          "col": 4,
+          "rowCount": 2,
+          "colCount": 1
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "rowCount": 1,
+          "colCount": 2
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "rowCount": 3,
+          "colCount": 1
+        },
+        {
+          "row": 7,
+          "col": 1,
+          "rowCount": 4,
+          "colCount": 1
+        },
+        {
+          "row": 11,
+          "col": 1,
+          "rowCount": 5,
+          "colCount": 1
+        },
+        {
+          "row": 12,
+          "col": 3,
+          "rowCount": 2,
+          "colCount": 1
+        }
+      ],
+      "selections": {
+        "0": {
+          "row": 7,
+          "col": 1,
+          "rowCount": 4,
+          "colCount": 1
+        },
+        "length": 1
+      },
+      "defaults": {
+        "colHeaderRowHeight": 20,
+        "colWidth": 64,
+        "rowHeaderColWidth": 40,
+        "rowHeight": 19,
+        "_isExcelDefaultColumnWidth": true
+      },
+      "rowOutlines": {
+        "items": []
+      },
+      "columnOutlines": {
+        "items": []
+      },
+      "cellStates": {},
+      "states": {},
+      "outlineColumnOptions": {},
+      "autoMergeRangeInfos": [],
+      "shapeCollectionOption": {
+        "snapMode": 0
+      },
+      "printInfo": {
+        "showColumnHeader": 1,
+        "showRowHeader": 1,
+        "paperSize": {
+          "width": 850,
+          "height": 1100,
+          "kind": 1
+        }
+      },
+      "index": 1,
+      "order": 1
+    },
+    "Sheet2": {
+      "name": "Sheet2",
+      "isSelected": false,
+      "rowCount": 25,
+      "columnCount": 5,
+      "activeRow": 1,
+      "visible": 1,
+      "theme": {
+        "name": "Office Theme",
+        "themeColor": {
+          "name": "Office",
+          "background1": {
+            "a": 255,
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "background2": {
+            "a": 255,
+            "r": 231,
+            "g": 230,
+            "b": 230
+          },
+          "text1": {
+            "a": 255,
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "text2": {
+            "a": 255,
+            "r": 68,
+            "g": 84,
+            "b": 106
+          },
+          "accent1": {
+            "a": 255,
+            "r": 91,
+            "g": 155,
+            "b": 213
+          },
+          "accent2": {
+            "a": 255,
+            "r": 237,
+            "g": 125,
+            "b": 49
+          },
+          "accent3": {
+            "a": 255,
+            "r": 165,
+            "g": 165,
+            "b": 165
+          },
+          "accent4": {
+            "a": 255,
+            "r": 255,
+            "g": 192,
+            "b": 0
+          },
+          "accent5": {
+            "a": 255,
+            "r": 68,
+            "g": 114,
+            "b": 196
+          },
+          "accent6": {
+            "a": 255,
+            "r": 112,
+            "g": 173,
+            "b": 71
+          },
+          "hyperlink": {
+            "a": 255,
+            "r": 5,
+            "g": 99,
+            "b": 193
+          },
+          "followedHyperlink": {
+            "a": 255,
+            "r": 149,
+            "g": 79,
+            "b": 114
+          }
+        },
+        "headingFont": "'Calibri Light'",
+        "bodyFont": "Calibri",
+        "font": {
+          "headerFont": "'Calibri Light'",
+          "bodyFont": "Calibri"
+        }
+      },
+      "data": {
+        "dataTable": {
+          "0": {
+            "0": {
+              "value": {
+                "value": "检 测 项 目",
+                "richText": [
+                  {
+                    "text": "检"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 'Times New Roman'"
+                    },
+                    "text": " "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 宋体"
+                    },
+                    "text": "测"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 'Times New Roman'"
+                    },
+                    "text": " "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 宋体"
+                    },
+                    "text": "项"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 'Times New Roman'"
+                    },
+                    "text": " "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 宋体"
+                    },
+                    "text": "目"
+                  }
+                ],
+                "text": "检 测 项 目"
+              },
+              "style": "__builtInStyle6"
+            },
+            "1": {
+              "value": {
+                "value": "技术参数/标准",
+                "richText": [
+                  {
+                    "text": "技术参数"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 'Times New Roman'"
+                    },
+                    "text": "/"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 宋体"
+                    },
+                    "text": "标准"
+                  }
+                ],
+                "text": "技术参数/标准"
+              },
+              "style": "__builtInStyle7"
+            },
+            "2": {
+              "value": {
+                "value": "检测设备/方法",
+                "richText": [
+                  {
+                    "text": "检测设备"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 'Times New Roman'"
+                    },
+                    "text": "/"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 宋体"
+                    },
+                    "text": "方法"
+                  }
+                ],
+                "text": "检测设备/方法"
+              },
+              "style": "__builtInStyle7"
+            },
+            "3": {
+              "value": {
+                "value": "判 定",
+                "richText": [
+                  {
+                    "text": "判"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": " "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "定"
+                  }
+                ],
+                "text": "判 定"
+              },
+              "style": "__builtInStyle2"
+            },
+            "4": {
+              "value": {
+                "value": "备 注",
+                "richText": [
+                  {
+                    "text": "备"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": " "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "注"
+                  }
+                ],
+                "text": "备 注"
+              },
+              "style": "__builtInStyle2"
+            }
+          },
+          "1": {
+            "0": {
+              "value": {
+                "value": "标  识",
+                "richText": [
+                  {
+                    "text": "标"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 'Times New Roman'"
+                    },
+                    "text": "  "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 宋体"
+                    },
+                    "text": "识"
+                  }
+                ],
+                "text": "标  识"
+              },
+              "style": "__builtInStyle8"
+            },
+            "1": {
+              "value": "清晰、美观、正确、简明",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "目测",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "2": {
+            "0": {
+              "value": {
+                "value": "框  架",
+                "richText": [
+                  {
+                    "text": "框"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 'Times New Roman'"
+                    },
+                    "text": "  "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 宋体"
+                    },
+                    "text": "架"
+                  }
+                ],
+                "text": "框  架"
+              },
+              "style": "__builtInStyle8"
+            },
+            "1": {
+              "value": "美观、牢固、无破损",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "目测",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "3": {
+            "0": {
+              "value": {
+                "value": "定 位 销",
+                "richText": [
+                  {
+                    "text": "定"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 'Times New Roman'"
+                    },
+                    "text": " "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 宋体"
+                    },
+                    "text": "位"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 'Times New Roman'"
+                    },
+                    "text": " "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 宋体"
+                    },
+                    "text": "销"
+                  }
+                ],
+                "text": "定 位 销"
+              },
+              "style": "__builtInStyle31"
+            },
+            "1": {
+              "value": "高度是否齐平",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "目测",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "4": {
+            "0": {
+              "style": "__builtInStyle32"
+            },
+            "1": {
+              "value": "定位正确、无偏移",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "目测、实际操作",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "5": {
+            "0": {
+              "style": "__builtInStyle32"
+            },
+            "1": {
+              "value": "松紧度好、无卡死",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "目测、实际操作",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "6": {
+            "0": {
+              "style": "__builtInStyle33"
+            },
+            "1": {
+              "value": "弹性好、无卡死",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "目测、实际操作",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "7": {
+            "0": {
+              "value": {
+                "value": "压 棒",
+                "richText": [
+                  {
+                    "text": "压"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 'Times New Roman'"
+                    },
+                    "text": " "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 宋体"
+                    },
+                    "text": "棒"
+                  }
+                ],
+                "text": "压 棒"
+              },
+              "style": "__builtInStyle31"
+            },
+            "1": {
+              "value": "高度是否齐平",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "目测",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "8": {
+            "0": {
+              "style": "__builtInStyle32"
+            },
+            "1": {
+              "value": "位置正确、无偏移",
+              "style": "__builtInStyle11"
+            },
+            "2": {
+              "value": "目测、实际操作",
+              "style": "__builtInStyle31"
+            },
+            "3": {
+              "style": "__builtInStyle23"
+            },
+            "4": {
+              "style": "__builtInStyle23"
+            }
+          },
+          "9": {
+            "0": {
+              "style": "__builtInStyle32"
+            },
+            "1": {
+              "value": "（是否压或碰到器件）",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "style": "__builtInStyle33"
+            },
+            "3": {
+              "style": "__builtInStyle24"
+            },
+            "4": {
+              "style": "__builtInStyle24"
+            }
+          },
+          "10": {
+            "0": {
+              "style": "__builtInStyle32"
+            },
+            "1": {
+              "value": "压力是否均匀",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "目测、实际操作",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "11": {
+            "0": {
+              "style": "__builtInStyle33"
+            },
+            "1": {
+              "value": "固定是否牢固",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "目测",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "12": {
+            "0": {
+              "value": {
+                "value": "64芯牛角",
+                "richText": [
+                  {
+                    "text": "64"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 宋体"
+                    },
+                    "text": "芯牛角"
+                  }
+                ],
+                "text": "64芯牛角"
+              },
+              "style": "__builtInStyle27"
+            },
+            "1": {
+              "value": "牢固、无破损",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "实际操作",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "13": {
+            "0": {
+              "style": "__builtInStyle28"
+            },
+            "1": {
+              "value": "插针是否齐平或少针",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "目测",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "14": {
+            "0": {
+              "value": {
+                "value": "夹   手",
+                "richText": [
+                  {
+                    "text": "夹"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 'Times New Roman'"
+                    },
+                    "text": "   "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 宋体"
+                    },
+                    "text": "手"
+                  }
+                ],
+                "text": "夹   手"
+              },
+              "style": "__builtInStyle8"
+            },
+            "1": {
+              "value": "滑动部分无卡死",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "实际操作",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "15": {
+            "0": {
+              "value": {
+                "value": "弹   簧",
+                "richText": [
+                  {
+                    "text": "弹"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 'Times New Roman'"
+                    },
+                    "text": "   "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 宋体"
+                    },
+                    "text": "簧"
+                  }
+                ],
+                "text": "弹   簧"
+              },
+              "style": "__builtInStyle8"
+            },
+            "1": {
+              "value": "滑动部分无卡死",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "实际操作",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "16": {
+            "0": {
+              "value": {
+                "value": "轴   承",
+                "richText": [
+                  {
+                    "text": "轴"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 'Times New Roman'"
+                    },
+                    "text": "   "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 宋体"
+                    },
+                    "text": "承"
+                  }
+                ],
+                "text": "轴   承"
+              },
+              "style": "__builtInStyle8"
+            },
+            "1": {
+              "value": "滑动部分无卡死",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "实际操作",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "17": {
+            "0": {
+              "value": {
+                "value": "卡  扣",
+                "richText": [
+                  {
+                    "text": "卡"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 'Times New Roman'"
+                    },
+                    "text": "  "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 14px 宋体"
+                    },
+                    "text": "扣"
+                  }
+                ],
+                "text": "卡  扣"
+              },
+              "style": "__builtInStyle8"
+            },
+            "1": {
+              "value": "外观无破损、弹性好、无卡死",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "目测、实际操作",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "18": {
+            "0": {
+              "value": "螺丝固定",
+              "style": "__builtInStyle8"
+            },
+            "1": {
+              "value": "螺丝有无松动",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "目测、实际操作",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "19": {
+            "0": {
+              "value": "卡板定位槽",
+              "style": "__builtInStyle8"
+            },
+            "1": {
+              "value": "卡板凹槽定位线路板",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "目测、实际操作",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "20": {
+            "0": {
+              "value": "夹具尺寸",
+              "style": "__builtInStyle10"
+            },
+            "1": {
+              "value": "夹具大小是否合适过板",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "目测、实际操作",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "21": {
+            "0": {
+              "value": "夹具外形",
+              "style": "__builtInStyle8"
+            },
+            "1": {
+              "value": "夹具是否变形",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "目测",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "22": {
+            "0": {
+              "value": "工装清洁",
+              "style": "__builtInStyle8"
+            },
+            "1": {
+              "value": "夹具清洁无污物残留",
+              "style": "__builtInStyle9"
+            },
+            "2": {
+              "value": "目测",
+              "style": "__builtInStyle9"
+            },
+            "3": {
+              "style": "__builtInStyle4"
+            },
+            "4": {
+              "style": "__builtInStyle4"
+            }
+          },
+          "23": {
+            "0": {
+              "value": {
+                "value": "结论：口该自制工装符合要求     口该自制工装不符合要求（口报废   口闲置   口改装）",
+                "richText": [
+                  {
+                    "text": "结论：口该自制工装符合要求"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": "     "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "口该自制工装不符合要求（口报废"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": "   "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "口闲置"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": "   "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "口改装）"
+                  }
+                ],
+                "text": "结论：口该自制工装符合要求     口该自制工装不符合要求（口报废   口闲置   口改装）"
+              },
+              "style": "__builtInStyle29"
+            },
+            "1": {
+              "style": "__builtInStyle29"
+            },
+            "2": {
+              "style": "__builtInStyle29"
+            },
+            "3": {
+              "style": "__builtInStyle29"
+            },
+            "4": {
+              "style": "__builtInStyle30"
+            }
+          },
+          "24": {
+            "0": {
+              "value": {
+                "value": "备注：在判定合格的打“√”；在判定不合格的打“×”；“ / ”表示无此项目",
+                "richText": [
+                  {
+                    "text": "备注：在判定合格的打“√”；在判定不合格的打“×”；“"
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 'Times New Roman'"
+                    },
+                    "text": " / "
+                  },
+                  {
+                    "style": {
+                      "foreColor": "Text 1 0",
+                      "font": "normal normal 16px 宋体"
+                    },
+                    "text": "”表示无此项目"
+                  }
+                ],
+                "text": "备注：在判定合格的打“√”；在判定不合格的打“×”；“ / ”表示无此项目"
+              },
+              "style": "__builtInStyle29"
+            },
+            "1": {
+              "style": "__builtInStyle29"
+            },
+            "2": {
+              "style": "__builtInStyle29"
+            },
+            "3": {
+              "style": "__builtInStyle29"
+            },
+            "4": {
+              "style": "__builtInStyle30"
+            }
+          }
+        },
+        "defaultDataNode": {
+          "style": {
+            "backColor": null,
+            "foreColor": "Text 1 0",
+            "vAlign": 2,
+            "font": "normal normal 14.6667px Calibri",
+            "themeFont": "Body",
+            "formatter": "General",
+            "borderLeft": null,
+            "borderTop": null,
+            "borderRight": null,
+            "borderBottom": null,
+            "locked": true,
+            "textIndent": 0,
+            "wordWrap": false,
+            "shrinkToFit": false,
+            "textDecoration": 0,
+            "isVerticalText": false,
+            "textOrientation": 0,
+            "fontStyle": null,
+            "fontWeight": null,
+            "fontSize": "14.6667px",
+            "fontFamily": "Calibri"
+          }
+        }
+      },
+      "rowHeaderData": {},
+      "colHeaderData": {},
+      "rows": [
+        {
+          "size": 22
+        },
+        {
+          "size": 35
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        null,
+        {
+          "size": 35
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 35
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 35
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 22
+        },
+        {
+          "size": 42
+        },
+        {
+          "size": 40
+        }
+      ],
+      "columns": [
+        {
+          "size": 129
+        },
+        {
+          "size": 118
+        },
+        {
+          "size": 151
+        },
+        {
+          "size": 126
+        },
+        {
+          "size": 308
+        }
+      ],
+      "defaultData": {},
+      "leftCellIndex": 0,
+      "topCellIndex": 9,
+      "spans": [
+        {
+          "row": 12,
+          "col": 0,
+          "rowCount": 2,
+          "colCount": 1
+        },
+        {
+          "row": 23,
+          "col": 0,
+          "rowCount": 1,
+          "colCount": 5
+        },
+        {
+          "row": 24,
+          "col": 0,
+          "rowCount": 1,
+          "colCount": 5
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "rowCount": 4,
+          "colCount": 1
+        },
+        {
+          "row": 7,
+          "col": 0,
+          "rowCount": 5,
+          "colCount": 1
+        },
+        {
+          "row": 8,
+          "col": 2,
+          "rowCount": 2,
+          "colCount": 1
+        },
+        {
+          "row": 8,
+          "col": 3,
+          "rowCount": 2,
+          "colCount": 1
+        },
+        {
+          "row": 8,
+          "col": 4,
+          "rowCount": 2,
+          "colCount": 1
+        }
+      ],
+      "selections": {
+        "0": {
+          "row": 1,
+          "col": 0,
+          "rowCount": 1,
+          "colCount": 1
+        },
+        "length": 1
+      },
+      "defaults": {
+        "colHeaderRowHeight": 20,
+        "colWidth": 64,
+        "rowHeaderColWidth": 40,
+        "rowHeight": 19,
+        "_isExcelDefaultColumnWidth": true
+      },
+      "rowOutlines": {
+        "items": []
+      },
+      "columnOutlines": {
+        "items": []
+      },
+      "cellStates": {},
+      "states": {},
+      "outlineColumnOptions": {},
+      "autoMergeRangeInfos": [],
+      "shapeCollectionOption": {
+        "snapMode": 0
+      },
+      "printInfo": {
+        "showColumnHeader": 1,
+        "showRowHeader": 1,
+        "paperSize": {
+          "width": 850,
+          "height": 1100,
+          "kind": 1
+        }
+      },
+      "index": 2,
+      "order": 2
+    }
+  },
+  "sheetTabCount": 0,
+  "namedStyles": [
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 3,
+      "vAlign": 2,
+      "font": "normal normal 14.6667px Calibri",
+      "themeFont": "Body",
+      "formatter": "General",
+      "borderLeft": null,
+      "borderTop": null,
+      "borderRight": null,
+      "borderBottom": null,
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": false,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "Normal",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": null,
+      "fontWeight": null,
+      "fontSize": "14.6667px",
+      "fontFamily": "Calibri"
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 3,
+      "vAlign": 2,
+      "font": "normal normal 14.6667px 等线",
+      "themeFont": "Body",
+      "formatter": "General",
+      "borderLeft": null,
+      "borderTop": null,
+      "borderRight": null,
+      "borderBottom": null,
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": false,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle0",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "14.6667px",
+      "fontFamily": "等线"
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 16px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": null,
+      "borderTop": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle1",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 3,
+      "vAlign": 1,
+      "font": "normal normal 16px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": null,
+      "borderTop": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle2",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 16px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": null,
+      "borderTop": null,
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle3",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 16px 'Times New Roman'",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": null,
+      "borderTop": null,
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle4",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "'Times New Roman'",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 16px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": null,
+      "borderTop": null,
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": null,
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle5",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 14px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle6",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "14px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 14px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": null,
+      "borderTop": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle7",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "14px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 14px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": null,
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle8",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "14px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 14px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": null,
+      "borderTop": null,
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle9",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "14px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 14px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": null,
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": null,
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle10",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "14px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 14px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": null,
+      "borderTop": null,
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": null,
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle11",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "14px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 16px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderRight": null,
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle12",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 16px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": null,
+      "borderTop": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle13",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 16px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": null,
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle14",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 16px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": null,
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": null,
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle15",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 16px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": null,
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle16",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 3,
+      "vAlign": 1,
+      "font": "normal normal 16px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": null,
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle17",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 3,
+      "vAlign": 1,
+      "font": "normal normal 16px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": null,
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": null,
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle18",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 3,
+      "vAlign": 1,
+      "font": "normal normal 16px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": null,
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle19",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 3,
+      "vAlign": 1,
+      "font": "normal normal 16px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderRight": null,
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle20",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 3,
+      "vAlign": 1,
+      "font": "normal normal 16px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": null,
+      "borderTop": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderRight": null,
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle21",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 3,
+      "vAlign": 1,
+      "font": "normal normal 16px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": null,
+      "borderTop": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle22",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 16px 'Times New Roman'",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": null,
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle23",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "'Times New Roman'",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 16px 'Times New Roman'",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": null,
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle24",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "'Times New Roman'",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 3,
+      "vAlign": 1,
+      "font": "normal normal 16px 'Times New Roman'",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": null,
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle25",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "'Times New Roman'",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 3,
+      "vAlign": 1,
+      "font": "normal normal 16px 'Times New Roman'",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": null,
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle26",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "'Times New Roman'",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 14px 'Times New Roman'",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": null,
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle27",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "14px",
+      "fontFamily": "'Times New Roman'",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 14px 'Times New Roman'",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": null,
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle28",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "14px",
+      "fontFamily": "'Times New Roman'",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 16px 'Times New Roman'",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": null,
+      "borderTop": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderRight": null,
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle29",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "'Times New Roman'",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 16px 'Times New Roman'",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": null,
+      "borderTop": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle30",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "16px",
+      "fontFamily": "'Times New Roman'",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 14px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": null,
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle31",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "14px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 14px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": null,
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": null,
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle32",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "14px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    },
+    {
+      "backColor": null,
+      "foreColor": "Text 1 0",
+      "hAlign": 1,
+      "vAlign": 1,
+      "font": "normal normal 14px 宋体",
+      "themeFont": null,
+      "formatter": "General",
+      "borderLeft": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderTop": null,
+      "borderRight": {
+        "color": "#000000",
+        "style": 2
+      },
+      "borderBottom": {
+        "color": "#000000",
+        "style": 2
+      },
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": true,
+      "shrinkToFit": false,
+      "textDecoration": 0,
+      "name": "__builtInStyle33",
+      "isVerticalText": false,
+      "textOrientation": 0,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontSize": "14px",
+      "fontFamily": "宋体",
+      "textDirection": 0,
+      "applyFont": true,
+      "applyAlignment": true,
+      "applyBorder": true
+    }
+  ],
+  "defaultTableStyle": "medium2",
+  "namedPatterns": {},
+  "pivotCaches": {},
+  "defaultPivotTableStyle": "light16"
+}
