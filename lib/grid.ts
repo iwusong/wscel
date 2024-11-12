@@ -1,4 +1,4 @@
-import {InitConfig, Span} from "./index";
+import {InitConfig, Span} from "./types";
 
 export function initGrid(config: InitConfig, ctx: CanvasRenderingContext2D) {
     let currentY = 0;
