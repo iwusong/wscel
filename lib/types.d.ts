@@ -37,6 +37,25 @@ type DataTableRow = {
 type DataTable = {
   [rowIndex: number]: DataTableRow;
 };
+type EditTable = {
+  [rowIndex: number]: EditTableRow | undefined;
+};
+
+type EditTableRow = {
+  [colIndex: number]: {
+    //true 允许编辑,根据customMethods.open 选择默认编辑还是自定义编辑  false关闭则禁止编辑
+    openEdit: boolean;
+    customMethods: {
+      // handle存在且open为true使用自定义编辑,否则使用默认编辑,open为false时也使用默认编辑
+      open: boolean;
+      handle?: (
+        config: InitConfig,
+        ctx: CanvasRenderingContext2D,
+        info: cellInfo,
+      ) => void;
+    };
+  };
+};
 export type InitConfig = {
   data: {
     dataTable: DataTable;
@@ -53,4 +72,22 @@ export type InitConfig = {
   };
   rowCount: number;
   columnCount: number;
+
+  editorialControl?: {
+    /**
+     * 开启编辑功能,使用默认编辑 关闭则全部禁止编辑
+     */
+    editAllowed: boolean;
+    editTable: EditTable;
+  };
+};
+export type CellInfo = {
+  rowIndex: number;
+  colIndex: number;
+  // 单元格左上角位置相对于canvas x
+  x: number;
+  // 单元格左上角位置相对于canvas y
+  y: number;
+  width: number;
+  height: number;
 };

@@ -1,4 +1,5 @@
 import { InitConfig, Span } from "./types";
+import { isString } from "./utils.ts";
 
 export function initGrid(config: InitConfig, ctx: CanvasRenderingContext2D) {
   let currentY = 0;
@@ -60,7 +61,7 @@ export function initGrid(config: InitConfig, ctx: CanvasRenderingContext2D) {
   }
 }
 
-function findSpan(row: number, col: number, spans: Span[]): Span | null {
+export function findSpan(row: number, col: number, spans: Span[]): Span | null {
   return (
     spans.find(
       (span) =>
@@ -72,14 +73,14 @@ function findSpan(row: number, col: number, spans: Span[]): Span | null {
   );
 }
 
-function calculateSpanWidth(span: Span, config: InitConfig): number {
+export function calculateSpanWidth(span: Span, config: InitConfig): number {
   return Array.from(
     { length: span.colCount },
     (_, i) => config.columns[span.col + i]?.size ?? config.defaults.colWidth,
   ).reduce((acc, width) => acc + width, 0);
 }
 
-function calculateSpanHeight(span: Span, config: InitConfig): number {
+export function calculateSpanHeight(span: Span, config: InitConfig): number {
   return Array.from(
     { length: span.rowCount },
     (_, i) => config.rows[span.row + i]?.size ?? config.defaults.rowHeight,
@@ -97,6 +98,17 @@ function drawCell(
   ctx.strokeRect(x, y, width, height);
 }
 
+/**
+ *
+ * @param x  x坐标
+ * @param y y坐标
+ * @param width
+ * @param height
+ * @param rowIndex
+ * @param colIndex
+ * @param config
+ * @param ctx
+ */
 function drawCellText(
   x: number,
   y: number,
@@ -110,7 +122,6 @@ function drawCellText(
   // 获取当前单元格的文本
   const cell = config.data.dataTable[rowIndex]?.[colIndex];
   if (cell && cell.value) {
-    console.log(cell.value);
     // 设置字体样式
     ctx.font = "16px 'Times New Roman'"; // 默认字体，可以根据需要调整
     ctx.fillStyle = "#000000"; // 文本颜色
@@ -124,8 +135,4 @@ function drawCellText(
     // 绘制文本
     ctx.fillText(text, textX, textY);
   }
-}
-
-function isString(value: any): value is string {
-  return typeof value === "string";
 }
