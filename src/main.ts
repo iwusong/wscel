@@ -1,60 +1,44 @@
 import wscel from "../lib";
-import json from "./z.json";
 import { InitConfig } from "../lib/types";
-import { disableEdit } from "../lib/utils.ts";
+import { disableEdit } from "../lib/utils.ts"; // @ts-ignore
+import GC from "@grapecity-software/spread-sheets"; // @ts-ignore
+import "@grapecity-software/spread-sheets-io/dist/gc.spread.sheets.io.min.js";
+
+let workbook = new GC.Spread.Sheets.Workbook( );
+
+let response = await fetch("/ex.xlsx");
+let blob = await response.blob();
+let file = new File([blob], "ex.xlsx");
+
+let workbook1 = await load(file, workbook);
+// @ts-ignore
+let sheet1 =  workbook1.toJSON().sheets.Sheet1;
+
+function load(file: File, workbook: GC.Spread.Sheets.Workbook) {
+  return new Promise<GC.Spread.Sheets.Workbook>((resolve, reject) => {
+    workbook.import(
+      file,
+      function () {
+        resolve(workbook); // 成功回调函数
+      },
+      function (e: any) {
+        reject(e);
+      },
+      {
+        fileType: GC.Spread.Sheets.FileType.excel,
+      },
+    );
+  });
+}
 
 let app = document.querySelector("#app");
-let config: InitConfig = json.sheets.Sheet1;
+let config: InitConfig = sheet1;
 config.editorialControl = {
   editTable: {},
   editAllowed: true,
 };
 disableEdit(config, 1, 1, 33, 4);
-// config.customEdit = {
-//   editTable: {
-//     31: {
-//       0: {
-//         customMethods: {
-//           handle: e,
-//           open: true,
-//           handleStr: e.toString(),
-//         },
-//         openEdit: true,
-//       },
-//     },
-//   },
-//   open: true,
-// };
-// console.log(json1);
 
-// function e(
-//   config: InitConfig,
-//   ctx: CanvasRenderingContext2D,
-//   cellInfo: CellInfo,
-// ) {
-//   const { rowIndex, colIndex, x, y, width, height } = cellInfo;
-//   let cellValue = getCellValue(rowIndex, colIndex, config);
-//   console.log(cellValue);
-//   let canvas = ctx.canvas;
-//   // 创建输入框
-//   const div = document.createElement("div");
-//   div.style.display = "flex";
-//   div.style.justifyContent = "center";
-//   div.style.alignItems = "center";
-//   div.textContent = cellValue;
-//   div.style.position = "absolute";
-//   div.style.background = "#ededed";
-//   div.style.left = `${canvas.offsetLeft + x}px`;
-//   div.style.top = `${canvas.offsetTop + y}px`;
-//   div.style.width = `${width}px`;
-//   div.style.height = `${height}px`;
-//   div.style.border = "none";
-//   div.style.padding = "0";
-//   div.style.margin = "0";
-//   div.style.font = ctx.font;
-//
-//   document.body.appendChild(div);
-// }
 if (app) {
   let wscel1 = new wscel(app, config);
   wscel1.emitter.on("click-31-0-text", (a) => {
@@ -65,6 +49,13 @@ if (app) {
       wscel1.setCellValue(31, 0, replaceCharAt(a, "口"));
     }
   });
+
+  wscel1.emitter.on("click-0-0-cell",()=>{
+    console.log(wscel1.getConfig())
+  })
+  wscel1.emitter.on("click-1-0-cell",()=>{
+    console.log(wscel1.getConfig())
+  })
 }
 
 function replaceCharAt(

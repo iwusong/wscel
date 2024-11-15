@@ -122,6 +122,7 @@ export function defaultEditing(
   input.style.border = "none";
   input.style.padding = "0";
   input.style.margin = "0";
+  input.style.outlineColor="blue"
   document.body.appendChild(input);
   input.focus();
 

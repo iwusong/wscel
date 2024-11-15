@@ -67,6 +67,10 @@ export default class Wscel {
     initGrid(this.config, this.ctx);
   }
 
+  public getConfig() {
+    return this.config;
+  }
+
   public setCellValue(rowIndex: number, colIndex: number, value: string) {
     const cell = this.config.data.dataTable[rowIndex]?.[colIndex];
     if (cell) {
