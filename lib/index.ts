@@ -6,11 +6,11 @@ import { isString } from "./utils.ts";
 
 export default class Wscel {
   private readonly ctx: CanvasRenderingContext2D;
-  private config: InitConfig;
+
   public emitter: Emitter<Events> = mitt<Events>();
 
-  constructor(div: Element, config: InitConfig) {
-    this.config = config;
+  constructor(div: Element, private config: InitConfig) {
+
     Wscel.fillDefaultRowsAndColumns(config);
 
     const canvas = document.createElement("canvas");

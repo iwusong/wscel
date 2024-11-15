@@ -41,12 +41,3 @@ export function customEdit(
     }
   }
 }
-
-export default function initEdit(
-  config: InitConfig,
-  ctx: CanvasRenderingContext2D,
-) {
-  ctx.canvas.addEventListener("dblclick", (event) => {
-    customEdit(event, config, ctx);
-  });
-}
