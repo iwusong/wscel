@@ -1,16 +1,17 @@
 import { initGrid } from "./grid.ts";
-import { InitConfig } from "./types";
+import { InitConfig } from "./types.ts";
 import initEvent, { Events } from "./event/initEvent.ts";
 import mitt, { Emitter } from "./mitt.ts";
 import { isString } from "./utils.ts";
 
 export default class Wscel {
+  public emitter: Emitter<Events> = mitt<Events>();
   private readonly ctx: CanvasRenderingContext2D;
 
-  public emitter: Emitter<Events> = mitt<Events>();
-
-  constructor(div: Element, private config: InitConfig) {
-
+  constructor(
+    div: Element,
+    private config: InitConfig,
+  ) {
     Wscel.fillDefaultRowsAndColumns(config);
 
     const canvas = document.createElement("canvas");
@@ -53,14 +54,6 @@ export default class Wscel {
     }
   }
 
-  private init() {
-    // 设置画布背景颜色
-    this.ctx.fillStyle = "#FFFFFF";
-    this.ctx.fillRect(0, 0, this.ctx.canvas.width, this.ctx.canvas.height);
-    initGrid(this.config, this.ctx);
-    initEvent(this.config, this.ctx, this.emitter);
-  }
-
   public redrawTable() {
     this.ctx.fillStyle = "#FFFFFF";
     this.ctx.fillRect(0, 0, this.ctx.canvas.width, this.ctx.canvas.height);
@@ -83,5 +76,13 @@ export default class Wscel {
       }
       this.redrawTable();
     }
+  }
+
+  private init() {
+    // 设置画布背景颜色
+    this.ctx.fillStyle = "#FFFFFF";
+    this.ctx.fillRect(0, 0, this.ctx.canvas.width, this.ctx.canvas.height);
+    initGrid(this.config, this.ctx);
+    initEvent(this.config, this.ctx, this.emitter);
   }
 }

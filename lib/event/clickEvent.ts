@@ -1,5 +1,5 @@
 import { getCellValue } from "../utils";
-import { CellInfo, InitConfig } from "../types";
+import { CellInfo, InitConfig } from "../types.ts";
 import { Emitter } from "../mitt.ts";
 import { Events } from "./initEvent.ts";
 

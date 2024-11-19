@@ -1,4 +1,4 @@
-import { CellInfo, InitConfig } from "../types";
+import { CellInfo, InitConfig } from "../types.ts";
 import { Emitter } from "../mitt.ts";
 import { getCellInfoAtPosition } from "../utils.ts";
 import { cellTextClick } from "./clickEvent.ts";

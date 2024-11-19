@@ -1,9 +1,5 @@
-import { InitConfig } from "../types";
-import {
-  defaultEditing,
-  getCellInfoAtPosition,
-
-} from "../utils.ts";
+import { InitConfig } from "../types.ts";
+import { defaultEditing, getCellInfoAtPosition } from "../utils.ts";
 
 export function customEdit(
   event: MouseEvent,

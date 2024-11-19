@@ -51,7 +51,7 @@ type EditTableRow = {
       handle?: (
         config: InitConfig,
         ctx: CanvasRenderingContext2D,
-        info: cellInfo,
+        info: CellInfo,
       ) => void;
     };
   };

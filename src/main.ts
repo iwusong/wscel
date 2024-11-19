@@ -1,10 +1,10 @@
 import wscel from "../lib";
-import { InitConfig } from "../lib/types";
+import { InitConfig } from "../lib/types.ts";
 import { disableEdit } from "../lib/utils.ts"; // @ts-ignore
 import GC from "@grapecity-software/spread-sheets"; // @ts-ignore
 import "@grapecity-software/spread-sheets-io/dist/gc.spread.sheets.io.min.js";
 
-let workbook = new GC.Spread.Sheets.Workbook( );
+let workbook = new GC.Spread.Sheets.Workbook();
 
 let response = await fetch("/ex.xlsx");
 let blob = await response.blob();
@@ -12,7 +12,7 @@ let file = new File([blob], "ex.xlsx");
 
 let workbook1 = await load(file, workbook);
 // @ts-ignore
-let sheet1 =  workbook1.toJSON().sheets.Sheet1;
+let sheet1 = workbook1.toJSON().sheets.Sheet1;
 
 function load(file: File, workbook: GC.Spread.Sheets.Workbook) {
   return new Promise<GC.Spread.Sheets.Workbook>((resolve, reject) => {
@@ -50,12 +50,12 @@ if (app) {
     }
   });
 
-  wscel1.emitter.on("click-0-0-cell",()=>{
-    console.log(wscel1.getConfig())
-  })
-  wscel1.emitter.on("click-1-0-cell",()=>{
-    console.log(wscel1.getConfig())
-  })
+  wscel1.emitter.on("click-0-0-cell", () => {
+    console.log(wscel1.getConfig());
+  });
+  wscel1.emitter.on("click-1-0-cell", () => {
+    console.log(wscel1.getConfig());
+  });
 }
 
 function replaceCharAt(

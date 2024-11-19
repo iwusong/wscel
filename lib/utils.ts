@@ -4,7 +4,7 @@ import {
   findSpan,
   initGrid,
 } from "./grid.ts";
-import { CellInfo, InitConfig } from "./types";
+import { CellInfo, InitConfig } from "./types.ts";
 
 export function isString(value: any): value is string {
   return typeof value === "string";
@@ -122,7 +122,7 @@ export function defaultEditing(
   input.style.border = "none";
   input.style.padding = "0";
   input.style.margin = "0";
-  input.style.outlineColor="blue"
+  input.style.outlineColor = "blue";
   document.body.appendChild(input);
   input.focus();
 

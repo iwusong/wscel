@@ -1,4 +1,4 @@
-import { InitConfig, Span } from "./types";
+import { InitConfig, Span } from "./types.ts";
 import { isString } from "./utils.ts";
 
 export function initGrid(config: InitConfig, ctx: CanvasRenderingContext2D) {
