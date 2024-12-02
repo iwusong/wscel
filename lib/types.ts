@@ -22,14 +22,14 @@ type RichText = {
 };
 
 type CellValue = {
-  value: string;
+  value: string | number;
   richText?: RichText[];
   text?: string; // 兼容原始的 text 字段
 };
 
 type DataTableRow = {
   [colIndex: number]: {
-    value?: CellValue | string; // 每个单元格的内容，可以有 value 和 richText
+    value?: CellValue | (string | number); // 每个单元格的内容，可以有 value 和 richText
     style?: string; // 样式，可能是内置样式
   };
 };
@@ -44,19 +44,45 @@ type EditTable = {
 type EditTableRow = {
   [colIndex: number]: {
     //true 允许编辑,根据customMethods.open 选择默认编辑还是自定义编辑  false关闭则禁止编辑
-    openEdit: boolean;
-    customMethods: {
-      // handle存在且open为true使用自定义编辑,否则使用默认编辑,open为false时也使用默认编辑
-      open: boolean;
-      handle?: (
-        config: InitConfig,
-        ctx: CanvasRenderingContext2D,
-        info: CellInfo,
-      ) => void;
-    };
+    open: boolean;
+    // customMethods: {
+    //   // handle存在且open为true使用自定义编辑,否则使用默认编辑,open为false时也使用默认编辑
+    //   open: boolean;
+    //   handle?: (
+    //     config: InitConfig,
+    //     ctx: CanvasRenderingContext2D,
+    //     info: CellInfo,
+    //   ) => void;
+    // };
   };
 };
 export type InitConfig = {
+  data: {
+    dataTable: DataTable;
+  };
+  spans: Span[];
+  rows: Row[];
+  columns: Column[];
+  defaults: {
+    colHeaderRowHeight: number;
+    colWidth: number;
+    rowHeaderColWidth: number;
+    rowHeight: number;
+    _isExcelDefaultColumnWidth: boolean;
+  };
+  rowCount: number;
+  columnCount: number;
+
+  editorialControl: {
+    /**
+     *  编辑功能控制
+     */
+    editAllowed: boolean;
+    editTable: EditTable;
+
+  };
+};
+export type Config = {
   data: {
     dataTable: DataTable;
   };

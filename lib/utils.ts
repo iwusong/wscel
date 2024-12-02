@@ -10,6 +10,10 @@ export function isString(value: any): value is string {
   return typeof value === "string";
 }
 
+export function isNumber(value: any): value is number {
+  return typeof value === "number";
+}
+
 // 根据点击位置获取单元格信息，考虑到合并单元格
 export function getCellInfoAtPosition(
   x: number,
@@ -81,24 +85,38 @@ export function getCellValue(
   config: InitConfig,
 ): string {
   const cell = config.data.dataTable[rowIndex]?.[colIndex];
-  return isString(cell?.value) ? cell.value : cell?.value?.value || "";
+  if (cell) {
+    if (cell.value) {
+      if (isString(cell.value)) return cell.value;
+      if (isNumber(cell.value)) return cell.value.toString();
+      return isString(cell.value.value)
+        ? cell.value.value
+        : cell.value.value.toString();
+    } else {
+      return "";
+    }
+  } else {
+    return "";
+  }
 }
 
 export function setCellValue(
   rowIndex: number,
   colIndex: number,
-  value: string,
+  value: string | number,
   config: InitConfig,
 ) {
   const cell = config.data.dataTable[rowIndex]?.[colIndex];
-  if (cell) {
+  if (cell && cell.value != undefined) {
     if (isString(cell.value)) {
       cell.value = value;
-    } else if (cell.value) {
-      cell.value.value = value;
-    } else if (!cell.value) {
-      cell.value = value;
+      return;
     }
+    if (isNumber(cell.value)) {
+      cell.value = value;
+      return;
+    }
+    cell.value.value = value;
   }
 }
 
@@ -136,24 +154,16 @@ export function defaultEditing(
 }
 
 // 打开全局编辑后,关闭指定区域编辑功能
-export function disableEdit(
+export function setEditArea(
   config: InitConfig,
   startRow: number,
   startCol: number,
   endRow: number,
   endCol: number,
+  isOpen: boolean,
 ) {
-  startRow--;
-  startCol--;
-  endCol--;
-  endRow--;
-  if (!config.editorialControl) {
-    config.editorialControl = {
-      editAllowed: true,
-      editTable: {},
-    };
-  }
-  config.editorialControl.editAllowed = true;
+
+
   for (let row = startRow; row <= endRow; row++) {
     for (let col = startCol; col <= endCol; col++) {
       if (!config.editorialControl.editTable[row]) {
@@ -161,13 +171,14 @@ export function disableEdit(
       }
       if (!config.editorialControl.editTable[row]![col]) {
         config.editorialControl.editTable[row]![col] = {
-          openEdit: false,
-          customMethods: {
-            open: true,
-          },
+          open: isOpen,
+          // customMethods: {
+          //     open: true,
+          // },
         };
+        return;
       }
-      config.editorialControl.editTable[row]![col].openEdit = false;
+      config.editorialControl.editTable[row]![col].open = isOpen;
     }
   }
 }

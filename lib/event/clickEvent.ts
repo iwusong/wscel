@@ -32,6 +32,12 @@ export function cellTextClick(
           char: char,
           index: index,
         });
+        emitter.emit('click-text', {
+          cellInfo:cellInfo,
+          value: cellValue,
+          char: char,
+          index: index,
+        });
         break;
       }
     }

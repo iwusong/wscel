@@ -4,7 +4,7 @@ import { getCellInfoAtPosition } from "../utils.ts";
 import { cellTextClick } from "./clickEvent.ts";
 import { customEdit } from "./initEdit.ts";
 
-export type Events = ClickCellEvents & ClickCellTextEvents;
+export type Events = ClickCellEvents & ClickCellTextEvents & CellEvents;
 type ClickCellEvents = {
   [key in `click-${string}-${string}-cell`]: CellInfo; // 这里使用模板字面量类型
 };
@@ -14,6 +14,16 @@ type ClickCellTextEvents = {
     char: string;
     index: number;
   }; // 这里使用模板字面量类型
+};
+type CellEvents = {
+  "click-cell": CellInfo;
+  "click-text": {
+    cellInfo:CellInfo
+    value: string;
+    char: string;
+    index: number;
+  };
+  // 这里使用模板字面量类型
 };
 
 export default function initEvent(
@@ -27,6 +37,7 @@ export default function initEvent(
     if (cellInfo) {
       const { rowIndex, colIndex } = cellInfo;
       emitter.emit(`click-${rowIndex}-${colIndex}-cell`, cellInfo);
+      emitter.emit(`click-cell`, cellInfo);
       cellTextClick(config, ctx, cellInfo, event, emitter);
     }
   });

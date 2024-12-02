@@ -11,27 +11,16 @@ export function customEdit(
 
   if (cellInfo) {
     const { rowIndex, colIndex } = cellInfo;
-    if (config.editorialControl?.editAllowed) {
+    if (config.editorialControl.editAllowed) {
       if (
         config.editorialControl.editTable[rowIndex] &&
         config.editorialControl.editTable[rowIndex][colIndex]
       ) {
         let editTableRow =
           config.editorialControl.editTable[rowIndex][colIndex];
-        if (!editTableRow.openEdit) {
+        if (!editTableRow.open) {
           return;
         }
-        if (
-          editTableRow.customMethods.handle &&
-          editTableRow.customMethods.open
-        ) {
-          editTableRow.customMethods.handle(config, ctx, cellInfo);
-          return;
-        } else {
-          defaultEditing(config, ctx, cellInfo);
-        }
-      } else {
-        // 默认编辑
         defaultEditing(config, ctx, cellInfo);
       }
     }
